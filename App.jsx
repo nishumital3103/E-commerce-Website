@@ -51,28 +51,6 @@ const Signin = () => {
   );
 };
 
-// const Signup = () => {
-//   return (
-//     <div className="container form-container">
-//       <h2>Sign Up</h2>
-//       <form>
-//         <div className="mb-3">
-//           <label>Name</label>
-//           <input type="text" className="form-control" placeholder="Enter name" />
-//         </div>
-//         <div className="mb-3">
-//           <label>Email</label>
-//           <input type="email" className="form-control" placeholder="Enter email" />
-//         </div>
-//         <div className="mb-3">
-//           <label>Password</label>
-//           <input type="password" className="form-control" placeholder="Enter password" />
-//         </div>
-//         <button type="submit" className="btn btn-primary">Register</button>
-//       </form>
-//     </div>
-//   );
-// };
 
 const Signup = () => {
   return (
@@ -101,29 +79,7 @@ const Signup = () => {
 };
 
 // const ProductPage = () => {
-//   const products = [
-//     { id: 1, name: "Laptop", price: "$1000" },
-//     { id: 2, name: "Smartphone", price: "$600" },
-//     { id: 3, name: "Headphones", price: "$100" },
-//   ];
 
-//   return (
-//     <div className="container mt-5">
-//       <h2 className="text-center">Products</h2>
-//       <div className="row">
-//         {products.map((product) => (
-//           <div className="col-md-4" key={product.id}>
-//             <div className="card p-3 product-card">
-//               <h5>{product.name}</h5>
-//               <p>{product.price}</p>
-//               <button className="btn btn-success">Add to Cart</button>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
 
 const ProductPage = () => {
   const productList = [
@@ -150,7 +106,6 @@ const ProductPage = () => {
   );
 };
 
-// const Home = () => <h1 className="text-center home-title">Welcome to E-Commerce Website</h1>;
 const FrontPage = () => {
   return (
     <div className="home-container">
